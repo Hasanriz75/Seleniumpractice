@@ -15,6 +15,7 @@ public class color {
 		driver.get("https://zety.com/");
 		driver.manage().window().maximize();
 		String CTAcolor = "#ffc85e";
+		String c = "CTA";
 
 		WebElement CTA = driver.findElement(By.xpath("(//a[contains(@class,'button_zu9gw_146 _p')])[1]"));
 		String color = CTA.getCssValue("background-color");
