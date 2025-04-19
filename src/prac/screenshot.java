@@ -1,7 +1,9 @@
 package prac;
 
 import java.io.File;
+import java.nio.file.Path;
 import java.io.IOException;
+
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;

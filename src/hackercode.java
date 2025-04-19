@@ -41,7 +41,7 @@ public class hackercode {
 	    	
 	    	
 	    	// Program to reverse an integer
-//    int l = 324223311;
+//          int l = 324223311;
 //	    	int rem;
 //	    	int rev=0;
 //	    	while(l>0) {
@@ -50,5 +50,15 @@ public class hackercode {
 //	    		l = l/10;	    		
 //	    	}
 //	    	System.out.println(rev);
+	    	
+	    	
+	    	// Program to sum array
+//	    	int arr[] = { 1,2,3,4,5};
+//	    	int sum = 0 ;
+//	    	for (int i = 0 ; i <arr.length ; i++) {
+//	    		sum += arr[i];
+//	    		
+//	    	}
+//	    	System.out.println(sum);
 	    } 
 	    	}

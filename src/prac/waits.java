@@ -19,5 +19,6 @@ public class waits {
 		//explicit wait
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("yourElementId")));
-	}
-}
+
+	}}
+	
