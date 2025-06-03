@@ -17,7 +17,7 @@ public class doublclick {
 		
 		Actions actions = new Actions(driver);
 		WebElement dc = driver.findElement(By.xpath("//button[@ondblclick='dblclickAlert()']"));
-		actions.doubleClick(dc).perform();
+		actions.doubleClick().perform();
 		System.out.println("Action performed");
 		
 		// Accepting alert

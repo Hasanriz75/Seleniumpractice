@@ -15,7 +15,7 @@ public class linkcount {
 				List<WebElement> link = driver.findElements(By.tagName("a"));
 				int count = link.size();
 				System.out.println(count);
-				driver.findElement(By.linkText("My Account"));
+				driver.findElement(By.linkText("My Account")).click();		
 				try {
 					Thread.sleep(4000);
 				} catch (InterruptedException e) {
